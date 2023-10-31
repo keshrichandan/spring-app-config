@@ -14,3 +14,5 @@ okta:
     client-secret: OO-1-B4z9V0udp6mSiXrhbtSEro7_qMsLCh3IFJZ
     audience: api://default
     scopes: profile, email, phone, offline_access, openid
+
+message: Hello There!!    
