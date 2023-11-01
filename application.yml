@@ -15,4 +15,9 @@ okta:
     audience: api://default
     scopes: profile, email, phone, offline_access, openid
 
-message: Hello There!!    
+message: Hello There!!  
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0
