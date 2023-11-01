@@ -24,7 +24,7 @@ management:
 
 spring:
   zipkin:
-    baseUrl: http://13.232.33.119:9411
+    baseUrl: http://13.232.33.119:9411/zipkin/
 
 
 
