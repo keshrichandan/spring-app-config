@@ -22,9 +22,9 @@ management:
     sampling:
       probability: 1.0
 
-spring:
-  zipkin:
-    baseUrl: http://13.232.33.119:9411/zipkin/
+# spring:
+#   zipkin:
+#     baseUrl: http://13.232.33.119:9411/zipkin/
 
 
 
