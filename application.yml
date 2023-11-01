@@ -21,10 +21,9 @@ management:
   tracing:
     sampling:
       probability: 1.0
-
-# spring:
-#   zipkin:
-#     baseUrl: http://13.232.33.119:9411/zipkin/
+  zipkin:
+    tracing:
+      endpoint: http://13.232.33.119:9411/api/v2/spans
 
 
 
