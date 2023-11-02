@@ -15,7 +15,7 @@ okta:
     audience: api://default
     scopes: profile, email, phone, offline_access, openid
 
-message: Hello There!!  
+message: Hello There-dev profile!!  
 
 management:
   tracing:
