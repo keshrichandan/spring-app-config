@@ -25,7 +25,18 @@ management:
     tracing:
       endpoint: http://13.232.33.119:9411/api/v2/spans
 
-
+spring:
+  datasource:
+    url: jdbc:h2:file:/data/department_service
+    username: sa
+    password: password
+    driverClassName: org.h2.Driver
+  h2:
+    console.enabled: true
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
 
 
 
